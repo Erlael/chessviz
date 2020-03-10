@@ -45,6 +45,8 @@ printf("Enter the vertices");
 scanf ("%d %d %d %d %d %d", &a1 ,&a2, &b1, &b2, &c1, &c2);
 S=fst(a1,a2,b1,b2,c1,c2);
 P=fpt(a1,a2,b1,b2,c1,c2);
+if (S<0)
+S=-S;
 printf("%d Triangle \n S:%d \n P:%d",i,S,P );
 }
 else if(strcmp(m2,m3)==0){
