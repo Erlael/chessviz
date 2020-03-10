@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <math.h>
 
 int fpt (int x1, int y1, int x2, int y2, int x3, int y3){
@@ -37,7 +38,7 @@ printf ("How many figures do you work with?");
 scanf( "%d", &n);
 printf("Enter figures: \n");
 for (i=1; i<=n; i++){
-scanf ("%s", &m3);
+scanf ("%s", m3);
 if ( strcmp (m1, m3) ==0)
 {
 printf("Enter the vertices");
