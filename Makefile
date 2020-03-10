@@ -1,2 +1,2 @@
-geometry: geometry.c
-    gcc -o geometry -Wall -lm geometry.c
+    geometry: geometry.c
+	gcc -o geometry -Wall  geometry.c -lm
