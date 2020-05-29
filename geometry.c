@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "geometry.h"
 
 int fpt(int x1, int y1, int x2, int y2, int x3, int y3)
 {
